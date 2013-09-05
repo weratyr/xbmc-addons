@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xvdr.ios" name="XVDR Updates (armv7) XBMC 12.0" version="1.0.0" provider-name="Alexander Pipelka">
+	<extension point="xbmc.addon.repository" name="XVDR Add-on Repository (Apple iOS)">
+		<info compressed="false">http://github.com/weratyr/xbmc-addons/ios/xvdr/frodo/addon.xml</info>
+		<checksum>http://github.com/weratyr/xbmc-addons/ios/xvdr/frodo/addon.xml.md5</checksum>
+		<datadir zip="true">http://github.com/weratyr/xbmc-addons/ios/xvdr/frodo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XVDR Addon Repository for Apple iOS clients</summary>
+		<description>Compiled for XBMC 12 (Frodo). Download updates for your XVDR plugin automatically</description>
+		<platform>ios</platform>
+	</extension>
+</addon>
