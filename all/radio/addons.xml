@@ -19,5 +19,23 @@
     <platform>all</platform>
    </extension>
 </addon>
-
+<addon id="plugin.audio.rockmetal"
+       name="Rockantenne Metal"
+       version="1.0.0"
+       provider-name="Moorviper">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Live-Stream from rockantenne</summary>
+    <summary lang="de">Live-Stream von rockantenne</summary>
+    <description lang="en">Listen to all kind of metal music, powered by Rockantenne</description>
+    <description lang="de">Genieße alle Arten von Mretalmusik, powered by Rockantenne</description>
+   </extension>
+</addon>
 </addons>
