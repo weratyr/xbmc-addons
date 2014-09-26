@@ -21,7 +21,7 @@
 </addon>
 
 <addon id="plugin.audio.rockmetal"
-       name="Rockantenne Metal"
+       name="Rock-Antenne Metal"
        version="1.0.0"
        provider-name="Moorviper">
   <requires>
@@ -33,24 +33,84 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Live-Stream from rockantenne</summary>
-    <summary lang="de">Live-Stream von rockantenne</summary>
-    <description lang="en">Listen to all kind of metal music, powered by Rockantenne</description>
-    <description lang="de">Genieße alle Arten von Mretalmusik, powered by Rockantenne</description>
+    <summary lang="en">Live-Stream from Rock-Antenne</summary>
+    <summary lang="de">Live-Stream von Rock-Antenne</summary>
+    <description lang="en">Listen to all kind of metal music, powered by Rock-Antenne</description>
+    <description lang="de">Genieße alle Arten von Metalmusik, powered by Rock-Antenne</description>
    </extension>
 </addon>
 
-<addon id="repository.radio.all" name="Metal Radio Add-on Repository" version="1.0.0" provider-name="Daniel Krah, Weratyr">
+<addon id="plugin.audio.radioclassic"
+       name="Bandit Classic Webradio"
+       version="1.0"
+       provider-name="Daniel Krah">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Live-Stream from the swedish Classic Radio "Bandit Classic</summary>
+    <summary lang="de">Live-Stream des schwedischen Classic-Senders "Bandit Classic</summary>
+    <description lang="en">Listen to all kind of classic-rock music, powered by Bandit Metal</description>
+    <description lang="de">Genieße alle Arten von "Classic"-Rockmusik, powered by Bandit Metal</description>
+   </extension>
+</addon>
+
+<addon id="plugin.audio.radioraclassic"
+       name="Rock Antenne Classic Perlen Webradio"
+       version="1.0"
+       provider-name="Daniel Krah">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Live-Stream from Rock Antenne: Classic Perlen</summary>
+    <summary lang="de">Live-Stream von Rock Antenne: Classic Perlen</summary>
+    <description lang="en">Listen to all kind of classic-rock music, powered by Rock Antenne</description>
+    <description lang="de">Genieße alle Arten von "Classic"-Rockmusik, powered by Rock Antenne</description>
+   </extension>
+</addon>
+
+<addon id="plugin.audio.radiometal"
+       name="Bandit Metal Webradio"
+       version="1.0"
+       provider-name="Daniel Krah">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Live-Stream from the Swedish Rock Radio "Bandit Metal</summary>
+    <summary lang="de">Live-Stream des schwedischen Rocksenders "Bandit M“egal</summary>
+    <description lang="en">Listen to all kind of rock music, powered by Bandit Metal</description>
+    <description lang="de">Genieße alle Arten von Rockmusik, powered by Bandit Metal</description>
+   </extension>
+</addon>
+
+<addon id="repository.radio.all" name="Metal Radio Add-on Repository" version="1.0.0" provider-name="Moorviper, Weratyr">
   <extension point="xbmc.addon.repository" name="Metal Radio Add-on Repository">
     <info compressed="false">http://raw.github.com/weratyr/xbmc-addons/master/all/radio/addons.xml</info>
     <checksum>http://raw.github.com/weratyr/xbmc-addons/master/all/radio/addons.xml.md5</checksum>
     <datadir zip="true">http://raw.github.com/weratyr/xbmc-addons/master/all/radio/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Live-Stream from the Swedish Rock Radio "Bandit Rock"</summary>
-    <summary lang="de">Live-Stream des schwedischen Rocksenders "Bandit Rock"</summary>
-    <description lang="en">Listen to all kind of rock music, powered by Bandit Rock</description>
-    <description lang="de">Genieße alle Arten von Rockmusik, powered by Bandit Rock</description>
+    <summary lang="en">Live-Stream from the swedish radiostation Bandit and the german radiostation Rock Antenne</summary>
+    <summary lang="de">Live-Stream des schwedischen Rocksenders Bandit und des deutschen Radiosenders Rock Antenne</summary>
+    <description lang="en">Listen to all kind of rock/metal music, powered by Bandit and Rock Antenne</description>
+    <description lang="de">Genieße alle Arten von Rock/Metal-Musik, powered by Bandit and Rock Antenne</description>
      <platform>all</platform>
   </extension>
 </addon>
